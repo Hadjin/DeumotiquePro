@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Edition Compteur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="76dp"
+            android:id="@+id/textMenuCompteur"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/textMenuCompteur"
+            android:layout_alignStart="@+id/textMenuCompteur"
+            android:layout_marginTop="36dp"
+            android:id="@+id/editCompteur"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"/>
+
+        <Button
+            android:text="Valider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editCompteur"
+            android:layout_alignStart="@+id/editCompteur"
+            android:layout_marginTop="69dp"
+            android:id="@+id/btnValidationCompteur"
+            android:layout_alignEnd="@+id/editCompteur" />
+    </RelativeLayout>
+</LinearLayout>

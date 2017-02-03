@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_accueil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Deumotique Pro "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="72dp"
+            android:id="@+id/TextAccueil"
+            android:textSize="45sp"/>
+
+        <Button
+            android:text="Liste des actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnMenuListeAction"
+            style="@style/Widget.AppCompat.Button"
+            android:elevation="0dp"
+            android:padding="20dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:text="Options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnMenuListeAction"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:id="@+id/btnMenuOptions"
+            android:padding="20dp"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+</LinearLayout>
+
